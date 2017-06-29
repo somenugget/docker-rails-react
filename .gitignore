@@ -1,0 +1,26 @@
+*.rbc
+capybara-*.html
+.rspec
+/log
+/tmp
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/public/system
+/coverage/
+/spec/tmp
+**.orig
+.directory
+
+/.bundle
+/vendor/bundle
+
+# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+.rvmrc
+
+# Ignore Byebug command history file.
+.byebug_history
+
+# Compiled from client
+app/assets/javascripts/bundle*
+app/assets/javascripts/vendor.bundle*
+public/index.html

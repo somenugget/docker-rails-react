@@ -1,0 +1,13 @@
+// Variables
+@import 'variables/all';
+
+// Other styles
+@import 'base/all';
+@import 'components/all';
+
+// Base
+body {
+  color: $text-main;
+  font-family: Arial, sans-serif;
+  font-size: $font-size-main;
+}
